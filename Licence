@@ -1,1 +1,137 @@
+# Paruse Platform Licence
 
+Copyright © Istockhomes  
+All rights reserved.
+
+---
+
+## Overview
+
+Paruse is a **viewer and storefront application** designed to operate as part of the Istockhomes platform.
+
+This licence is intentionally written to allow:
+- modification
+- re-branding
+- resale
+- commercial use
+
+while protecting:
+- the Istockhomes network
+- shared infrastructure
+- automatic revenue-sharing systems
+- long-term platform integrity
+
+---
+
+## What you are allowed to do
+
+You MAY:
+
+- Download and use this code
+- Modify the UI, UX, branding, and presentation
+- Re-skin the app for a specific brand, store, or entity
+- Distribute the app freely or commercially
+- Sell or transfer your modified version as part of a business, franchise, or entity
+- Build additional features on the client side
+
+You retain ownership of:
+- your design work
+- your UI modifications
+- your branding
+- any client-side enhancements you create
+
+---
+
+## What this licence does NOT grant
+
+This licence does NOT grant you the right to:
+
+- Copy, replicate, or re-implement the Istockhomes backend
+- Create a competing database, network, or marketplace using this code
+- Bypass Istockhomes payment, checkout, or revenue-distribution systems
+- Remove or alter required platform attribution where applicable
+- Present a derivative work as an independent replacement for Istockhomes infrastructure
+
+This application is a **viewport**, not the platform itself.
+
+---
+
+## Platform connectivity and revenue
+
+If your modified version of this app:
+
+- Connects to Istockhomes infrastructure
+- Loads content from the Istockhomes database
+- Uses Istockhomes checkout or payment routing
+- Participates in transactions surfaced by the platform
+
+then:
+
+- All transactions must be routed through Istockhomes systems
+- Automatic revenue sharing applies by design
+- Revenue splits are enforced server-side
+- No client-side alteration may override or suppress these rules
+
+Participation in revenue is automatic, not negotiable per build.
+
+---
+
+## Entity-based operation
+
+This app is designed to operate as an **entity-based portal**.
+
+Entities may be:
+- branded
+- leased
+- operated
+- renewed
+- sold
+
+Your derivative work may represent an entity, but the underlying network remains governed by Istockhomes.
+
+Entity access may be suspended or revoked if:
+- the licence is violated
+- abuse or misrepresentation occurs
+- attempts are made to bypass platform rules
+
+---
+
+## No warranty
+
+This software is provided “as is”.
+
+Istockhomes makes no guarantees regarding:
+- fitness for a particular purpose
+- uptime
+- performance
+- commercial success
+
+Use of the software is at your own risk.
+
+---
+
+## Termination
+
+This licence may be terminated if its terms are violated.
+
+Termination affects platform access and connectivity, not ownership of your independent design assets.
+
+---
+
+## Intent
+
+This licence exists to encourage:
+- creativity
+- real businesses
+- fair participation
+- long-term alignment
+
+It is not intended to trap developers, but it **does protect the platform**.
+
+---
+
+## Questions
+
+If you have questions about how this licence applies to your use case, begin here:
+
+https://istockhomes.ca/pages/inside-istockhomes-developers
