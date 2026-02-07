@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E689ECE52E229EDB0025D2A7 /* ParuseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E689ECE42E229EDB0025D2A7 /* ParuseApp.swift */; };
+		E689ECE72E229EDB0025D2A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E689ECE62E229EDB0025D2A7 /* ContentView.swift */; };
+		E689ECE92E229EDC0025D2A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E689ECE82E229EDC0025D2A7 /* Assets.xcassets */; };
+		E689ECEC2E229EDC0025D2A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E689ECEB2E229EDC0025D2A7 /* Preview Assets.xcassets */; };
+		E689ECF62E229EDD0025D2A7 /* ParuseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E689ECF52E229EDD0025D2A7 /* ParuseTests.swift */; };
+		E689ED002E229EDD0025D2A7 /* ParuseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E689ECFF2E229EDD0025D2A7 /* ParuseUITests.swift */; };
+		E689ED022E229EDD0025D2A7 /* ParuseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E689ED012E229EDD0025D2A7 /* ParuseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E689ECF22E229EDD0025D2A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E689ECD92E229EDB0025D2A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E689ECE02E229EDB0025D2A7;
+			remoteInfo = Paruse;
+		};
+		E689ECFC2E229EDD0025D2A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E689ECD92E229EDB0025D2A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E689ECE02E229EDB0025D2A7;
+			remoteInfo = Paruse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E689ECE12E229EDB0025D2A7 /* Paruse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paruse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E689ECE42E229EDB0025D2A7 /* ParuseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParuseApp.swift; sourceTree = "<group>"; };
+		E689ECE62E229EDB0025D2A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E689ECE82E229EDC0025D2A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E689ECEB2E229EDC0025D2A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E689ECF12E229EDD0025D2A7 /* ParuseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParuseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E689ECF52E229EDD0025D2A7 /* ParuseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParuseTests.swift; sourceTree = "<group>"; };
+		E689ECFB2E229EDD0025D2A7 /* ParuseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParuseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E689ECFF2E229EDD0025D2A7 /* ParuseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParuseUITests.swift; sourceTree = "<group>"; };
+		E689ED012E229EDD0025D2A7 /* ParuseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParuseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E689ECDE2E229EDB0025D2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E689ECEE2E229EDD0025D2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E689ECF82E229EDD0025D2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E689ECD82E229EDB0025D2A7 = {
+			isa = PBXGroup;
+			children = (
+				E689ECE32E229EDB0025D2A7 /* Paruse */,
+				E689ECF42E229EDD0025D2A7 /* ParuseTests */,
+				E689ECFE2E229EDD0025D2A7 /* ParuseUITests */,
+				E689ECE22E229EDB0025D2A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E689ECE22E229EDB0025D2A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E689ECE12E229EDB0025D2A7 /* Paruse.app */,
+				E689ECF12E229EDD0025D2A7 /* ParuseTests.xctest */,
+				E689ECFB2E229EDD0025D2A7 /* ParuseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E689ECE32E229EDB0025D2A7 /* Paruse */ = {
+			isa = PBXGroup;
+			children = (
+				E689ECE42E229EDB0025D2A7 /* ParuseApp.swift */,
+				E689ECE62E229EDB0025D2A7 /* ContentView.swift */,
+				E689ECE82E229EDC0025D2A7 /* Assets.xcassets */,
+				E689ECEA2E229EDC0025D2A7 /* Preview Content */,
+			);
+			path = Paruse;
+			sourceTree = "<group>";
+		};
+		E689ECEA2E229EDC0025D2A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E689ECEB2E229EDC0025D2A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E689ECF42E229EDD0025D2A7 /* ParuseTests */ = {
+			isa = PBXGroup;
+			children = (
+				E689ECF52E229EDD0025D2A7 /* ParuseTests.swift */,
+			);
+			path = ParuseTests;
+			sourceTree = "<group>";
+		};
+		E689ECFE2E229EDD0025D2A7 /* ParuseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E689ECFF2E229EDD0025D2A7 /* ParuseUITests.swift */,
+				E689ED012E229EDD0025D2A7 /* ParuseUITestsLaunchTests.swift */,
+			);
+			path = ParuseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E689ECE02E229EDB0025D2A7 /* Paruse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E689ED052E229EDD0025D2A7 /* Build configuration list for PBXNativeTarget "Paruse" */;
+			buildPhases = (
+				E689ECDD2E229EDB0025D2A7 /* Sources */,
+				E689ECDE2E229EDB0025D2A7 /* Frameworks */,
+				E689ECDF2E229EDB0025D2A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paruse;
+			productName = Paruse;
+			productReference = E689ECE12E229EDB0025D2A7 /* Paruse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E689ECF02E229EDD0025D2A7 /* ParuseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E689ED082E229EDD0025D2A7 /* Build configuration list for PBXNativeTarget "ParuseTests" */;
+			buildPhases = (
+				E689ECED2E229EDD0025D2A7 /* Sources */,
+				E689ECEE2E229EDD0025D2A7 /* Frameworks */,
+				E689ECEF2E229EDD0025D2A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E689ECF32E229EDD0025D2A7 /* PBXTargetDependency */,
+			);
+			name = ParuseTests;
+			productName = ParuseTests;
+			productReference = E689ECF12E229EDD0025D2A7 /* ParuseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E689ECFA2E229EDD0025D2A7 /* ParuseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E689ED0B2E229EDD0025D2A7 /* Build configuration list for PBXNativeTarget "ParuseUITests" */;
+			buildPhases = (
+				E689ECF72E229EDD0025D2A7 /* Sources */,
+				E689ECF82E229EDD0025D2A7 /* Frameworks */,
+				E689ECF92E229EDD0025D2A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E689ECFD2E229EDD0025D2A7 /* PBXTargetDependency */,
+			);
+			name = ParuseUITests;
+			productName = ParuseUITests;
+			productReference = E689ECFB2E229EDD0025D2A7 /* ParuseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E689ECD92E229EDB0025D2A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E689ECE02E229EDB0025D2A7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E689ECF02E229EDD0025D2A7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E689ECE02E229EDB0025D2A7;
+					};
+					E689ECFA2E229EDD0025D2A7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E689ECE02E229EDB0025D2A7;
+					};
+				};
+			};
+			buildConfigurationList = E689ECDC2E229EDB0025D2A7 /* Build configuration list for PBXProject "Paruse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E689ECD82E229EDB0025D2A7;
+			productRefGroup = E689ECE22E229EDB0025D2A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E689ECE02E229EDB0025D2A7 /* Paruse */,
+				E689ECF02E229EDD0025D2A7 /* ParuseTests */,
+				E689ECFA2E229EDD0025D2A7 /* ParuseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E689ECDF2E229EDB0025D2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E689ECEC2E229EDC0025D2A7 /* Preview Assets.xcassets in Resources */,
+				E689ECE92E229EDC0025D2A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E689ECEF2E229EDD0025D2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E689ECF92E229EDD0025D2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E689ECDD2E229EDB0025D2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E689ECE72E229EDB0025D2A7 /* ContentView.swift in Sources */,
+				E689ECE52E229EDB0025D2A7 /* ParuseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E689ECED2E229EDD0025D2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E689ECF62E229EDD0025D2A7 /* ParuseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E689ECF72E229EDD0025D2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E689ED022E229EDD0025D2A7 /* ParuseUITestsLaunchTests.swift in Sources */,
+				E689ED002E229EDD0025D2A7 /* ParuseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E689ECF32E229EDD0025D2A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E689ECE02E229EDB0025D2A7 /* Paruse */;
+			targetProxy = E689ECF22E229EDD0025D2A7 /* PBXContainerItemProxy */;
+		};
+		E689ECFD2E229EDD0025D2A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E689ECE02E229EDB0025D2A7 /* Paruse */;
+			targetProxy = E689ECFC2E229EDD0025D2A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E689ED032E229EDD0025D2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E689ED042E229EDD0025D2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E689ED062E229EDD0025D2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Paruse/Preview Content\"";
+				DEVELOPMENT_TEAM = 7ND4WCRHKT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Paruse;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paruse.app-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E689ED072E229EDD0025D2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Paruse/Preview Content\"";
+				DEVELOPMENT_TEAM = 7ND4WCRHKT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Paruse;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paruse.app-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E689ED092E229EDD0025D2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ND4WCRHKT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Istockhomes.ParuseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paruse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Paruse";
+			};
+			name = Debug;
+		};
+		E689ED0A2E229EDD0025D2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ND4WCRHKT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Istockhomes.ParuseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paruse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Paruse";
+			};
+			name = Release;
+		};
+		E689ED0C2E229EDD0025D2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ND4WCRHKT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Istockhomes.ParuseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paruse;
+			};
+			name = Debug;
+		};
+		E689ED0D2E229EDD0025D2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ND4WCRHKT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Istockhomes.ParuseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paruse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E689ECDC2E229EDB0025D2A7 /* Build configuration list for PBXProject "Paruse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E689ED032E229EDD0025D2A7 /* Debug */,
+				E689ED042E229EDD0025D2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E689ED052E229EDD0025D2A7 /* Build configuration list for PBXNativeTarget "Paruse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E689ED062E229EDD0025D2A7 /* Debug */,
+				E689ED072E229EDD0025D2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E689ED082E229EDD0025D2A7 /* Build configuration list for PBXNativeTarget "ParuseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E689ED092E229EDD0025D2A7 /* Debug */,
+				E689ED0A2E229EDD0025D2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E689ED0B2E229EDD0025D2A7 /* Build configuration list for PBXNativeTarget "ParuseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E689ED0C2E229EDD0025D2A7 /* Debug */,
+				E689ED0D2E229EDD0025D2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E689ECD92E229EDB0025D2A7 /* Project object */;
+}
